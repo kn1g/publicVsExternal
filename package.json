@@ -1,0 +1,14 @@
+{
+  "name": "publicvsexternal",
+  "version": "1.0.0",
+  "description": "Checks if it makes sense to set the function's visibility from public to external.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chainsecurity-Nico",
+  "license": "MIT",
+  "dependencies": {
+    "match-all": "^1.2.5"
+  }
+}
