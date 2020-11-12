@@ -3,7 +3,7 @@ const fs = require('fs');
 const matchAll = require("match-all");
 
 
-const fileContent = fs.readFileSync('resources/AtomicCrosschainTransactionCenter.sol', 'utf8').toString();
+const fileContent = fs.readFileSync('Filename.sol', 'utf8').toString();
 
 function checkVisibility(){
 	const reVisibility = /function\s+(\w*)\s*\([\w\s,\[\]]*(?:string\s|bytes\s|\w+\[\d*\]\s)[\w\s,\[\]]*\)\s*(?!view|pure)?[\w\s]*public(?!\s*view|\s*pure)\s*\S*\{/g;
